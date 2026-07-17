@@ -1,0 +1,5 @@
+# skill-steward keeps no state in the repo — the workspace lives outside it.
+skill-observations/
+skill-updates/
+*.lock
+.DS_Store

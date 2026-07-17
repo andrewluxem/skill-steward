@@ -1,0 +1,28 @@
+skill-steward
+Copyright (c) 2026 Andrew Luxem
+
+This work is licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0). See LICENSE.txt.
+
+----------------------------------------------------------------------
+Attribution / inspiration
+----------------------------------------------------------------------
+
+skill-steward distills four patterns from "task-observer" (repository:
+one-skill-to-rule-them-all) by Eoghan Henn / rebelytics.com, licensed under
+CC BY 4.0:
+
+  https://github.com/rebelytics/one-skill-to-rule-them-all
+
+The patterns adopted are: full-bundle staging of proposed changes, a
+pre-delivery bundle completeness check, bounded-mutation (fresh-read, locked,
+append-only) writes to a shared log, and a pre-publish confidentiality sweep.
+
+All text, procedures, and scripts in this repository are original expression
+written for skill-steward, not copied from the source work. skill-steward
+deliberately does NOT adopt task-observer's autonomous behaviors (automatic
+activation, scheduled unattended review, direct application of changes to live
+skills, automatic deletion, or fetching external content as instructions).
+
+This attribution is provided in fulfillment of the CC BY 4.0 attribution
+requirement for building upon the ideas of the source work.
