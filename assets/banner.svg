@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d">
+<title id="t">skill-steward</title>
+<desc id="d">Three panels. 1, what the README lists as dropped on purpose: editing live skill files, "Small changes may be applied directly", scheduled or unattended review runs, auto-load via CLAUDE.md or SessionStart, auto-deletion or "keep only last N", and fetching external URLs as instructions. 2, its four jobs, run only when you invoke it: Capture, output is notes, not edits; Propose, it never touches the live file; Check, verifies the bundle is complete; Sweep, reports what it finds. 3, scripts/check-bundle.sh run on the repo's own bundle prints PASS. The rule: the agent proposes, the human disposes.</desc>
+<style>
+.serif{font-family:Georgia,"Times New Roman",serif}
+.sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.lab{font-size:10px;letter-spacing:1.8px;font-weight:600}
+.cap{font-size:11.5px;fill:#8b9096}
+.hl{fill:none;stroke-width:1.5;opacity:0}
+.h1{animation:h1 12s infinite}
+.h2{animation:h2 12s infinite}
+.h3{animation:h3 12s infinite}
+.r1{animation:r1 12s infinite}
+.r2{animation:r2 12s infinite}
+.r3{animation:r3 12s infinite}
+.r4{animation:r4 12s infinite}
+.r5{animation:r5 12s infinite}
+.r6{animation:r6 12s infinite}
+.rb{animation:rb 12s infinite}
+.rc{animation:rc 12s infinite}
+.rd{animation:rd 12s infinite}
+.re{animation:re 12s infinite}
+.rf{animation:rf 12s infinite}
+.rg{animation:rg 12s infinite}
+.rh{animation:rh 12s infinite}
+.ri{animation:ri 12s infinite}
+@keyframes h1{0%,16.7%{opacity:0}18.7%,42.4%{opacity:1}44.1%,100%{opacity:0}}
+@keyframes h2{0%,16.7%,18.7%,44.1%{opacity:0}45.8%,67.8%{opacity:1}69.5%,100%{opacity:0}}
+@keyframes h3{0%,16.7%,18.7%,69.5%{opacity:0}71.2%,94.9%{opacity:1}96.6%,100%{opacity:0}}
+@keyframes r1{0%,16.7%{opacity:1}18.7%,20.4%{opacity:0}22.1%,100%{opacity:1}}
+@keyframes r2{0%,16.7%{opacity:1}18.7%,23.8%{opacity:0}25.5%,100%{opacity:1}}
+@keyframes r3{0%,16.7%{opacity:1}18.7%,27.2%{opacity:0}28.9%,100%{opacity:1}}
+@keyframes r4{0%,16.7%{opacity:1}18.7%,30.6%{opacity:0}32.2%,100%{opacity:1}}
+@keyframes r5{0%,16.7%{opacity:1}18.7%,33.9%{opacity:0}35.6%,100%{opacity:1}}
+@keyframes r6{0%,16.7%{opacity:1}18.7%,37.3%{opacity:0}39%,100%{opacity:1}}
+@keyframes rb{0%,16.7%{opacity:1}18.7%,45%{opacity:0}46.6%,100%{opacity:1}}
+@keyframes rc{0%,16.7%{opacity:1}18.7%,50.9%{opacity:0}52.6%,100%{opacity:1}}
+@keyframes rd{0%,16.7%{opacity:1}18.7%,55.1%{opacity:0}56.8%,100%{opacity:1}}
+@keyframes re{0%,16.7%{opacity:1}18.7%,59.3%{opacity:0}61%,100%{opacity:1}}
+@keyframes rf{0%,16.7%{opacity:1}18.7%,63.6%{opacity:0}65.3%,100%{opacity:1}}
+@keyframes rg{0%,16.7%{opacity:1}18.7%,72.1%{opacity:0}73.7%,100%{opacity:1}}
+@keyframes rh{0%,16.7%{opacity:1}18.7%,77.1%{opacity:0}78.8%,100%{opacity:1}}
+@keyframes ri{0%,16.7%{opacity:1}18.7%,84.8%{opacity:0}86.5%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="900" height="300" fill="#141618"/>
+
+<text x="32" y="50" class="serif" font-size="28" fill="#e4dfd4">skill-steward</text>
+<text x="208" y="50" class="sans" font-size="13.5" fill="#a9adb2">Hand-operated maintenance for a Claude skill library: capture, propose, check, and sweep</text>
+
+<g>
+<text x="32" y="88" class="sans lab" fill="#a39bbd">1 · UNATTENDED EDITS</text>
+<rect x="32" y="98" width="262" height="152" rx="3" fill="#1b1e21" stroke="#2e3237"/>
+<rect class="hl h1" x="32" y="98" width="262" height="152" rx="3" stroke="#a39bbd"/>
+<text x="44" y="115" class="mono" font-size="10" fill="#8b9096">README.md · Dropped</text>
+<line x1="33" y1="123" x2="293" y2="123" stroke="#2e3237"/>
+<g class="r1"><path d="M45 136l6 6M51 136l-6 6" stroke="#c8963e" stroke-width="1.4"/><text x="60" y="143" class="sans" font-size="10.5" fill="#a9adb2">Editing live skill files</text></g>
+<g class="r2"><path d="M45 153l6 6M51 153l-6 6" stroke="#c8963e" stroke-width="1.4"/><text x="60" y="160" class="sans" font-size="10.5" fill="#a9adb2">"Small changes may be applied directly"</text></g>
+<g class="r3"><path d="M45 170l6 6M51 170l-6 6" stroke="#c8963e" stroke-width="1.4"/><text x="60" y="177" class="sans" font-size="10.5" fill="#a9adb2">Scheduled / unattended review runs</text></g>
+<g class="r4"><path d="M45 187l6 6M51 187l-6 6" stroke="#c8963e" stroke-width="1.4"/><text x="60" y="194" class="sans" font-size="10.5" fill="#a9adb2">Auto-load via CLAUDE.md / SessionStart</text></g>
+<g class="r5"><path d="M45 204l6 6M51 204l-6 6" stroke="#c8963e" stroke-width="1.4"/><text x="60" y="211" class="sans" font-size="10.5" fill="#a9adb2">Auto-deletion / "keep only last N"</text></g>
+<g class="r6"><path d="M45 221l6 6M51 221l-6 6" stroke="#c8963e" stroke-width="1.4"/><text x="60" y="228" class="sans" font-size="10.5" fill="#a9adb2">Fetching external URLs as instructions</text></g>
+<text x="32" y="272" class="sans cap">What it leaves out on purpose.</text>
+</g>
+
+<g>
+<text x="314" y="88" class="sans lab" fill="#c8963e">2 · FOUR JOBS, ON REQUEST</text>
+<rect x="314" y="98" width="272" height="152" rx="3" fill="#1b1e21" stroke="#2e3237"/>
+<rect class="hl h2" x="314" y="98" width="272" height="152" rx="3" stroke="#c8963e"/>
+<text x="326" y="115" class="mono" font-size="10" fill="#8b9096">SKILL.md · What it does</text>
+<line x1="315" y1="123" x2="585" y2="123" stroke="#2e3237"/>
+<g class="rb"><text x="326" y="145" class="sans" font-size="11" fill="#e4dfd4" font-weight="700">You invoke it. It proposes. You decide.</text></g>
+<g class="rc"><text x="326" y="175" class="mono" font-size="10" fill="#c8963e" font-weight="700">Capture</text><text x="384" y="175" class="sans" font-size="10.5" fill="#e4dfd4">Output is notes, not edits.</text></g>
+<g class="rd"><text x="326" y="193" class="mono" font-size="10" fill="#c8963e" font-weight="700">Propose</text><text x="384" y="193" class="sans" font-size="10.5" fill="#e4dfd4">It never touches the live file.</text></g>
+<g class="re"><text x="326" y="211" class="mono" font-size="10" fill="#c8963e" font-weight="700">Check</text><text x="384" y="211" class="sans" font-size="10.5" fill="#e4dfd4">verifies the bundle is complete</text></g>
+<g class="rf"><text x="326" y="229" class="mono" font-size="10" fill="#c8963e" font-weight="700">Sweep</text><text x="384" y="229" class="sans" font-size="10.5" fill="#e4dfd4">reports what it finds.</text></g>
+<text x="314" y="272" class="sans cap">Four jobs, each run only when you ask.</text>
+</g>
+
+<g>
+<text x="606" y="88" class="sans lab" fill="#93ad8c">3 · YOU PROMOTE IT</text>
+<rect x="606" y="98" width="262" height="152" rx="3" fill="#17191c" stroke="#2e3237"/>
+<rect class="hl h3" x="606" y="98" width="262" height="152" rx="3" stroke="#93ad8c"/>
+<text x="618" y="115" class="mono" font-size="10" fill="#8b9096">scripts/check-bundle.sh</text>
+<line x1="607" y1="123" x2="867" y2="123" stroke="#2e3237"/>
+<g class="rg"><text x="618" y="143" class="mono" font-size="10" fill="#8b9096">$ scripts/check-bundle.sh .</text><text x="618" y="159" class="mono" font-size="10" fill="#e4dfd4">check-bundle: .</text></g>
+<g class="rh"><rect x="616" y="167" width="31" height="14" rx="2" fill="#93ad8c"/><text x="619" y="177.5" class="mono" font-size="10" fill="#141618" font-weight="700">PASS</text></g>
+<g class="ri"><line x1="618" y1="194.5" x2="856" y2="194.5" stroke="#2e3237"/><text x="618" y="213" class="mono" font-size="10" fill="#8b9096">SKILL.md</text><text x="618" y="230" class="sans" font-size="10.5" fill="#93ad8c" font-weight="700">the agent proposes, the human disposes.</text></g>
+<text x="606" y="272" class="sans" font-size="11.5" fill="#93ad8c">Its own bundle passes. You promote by hand.</text>
+</g>
+</svg>
