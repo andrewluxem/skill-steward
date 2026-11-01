@@ -27,12 +27,12 @@ fi
 
 # 2. Referenced files exist. Collect references/... and scripts/... mentions
 #    from every markdown file, resolve relative to the bundle root.
-mapfile -t refs < <(grep -REoh '(references|scripts)/[A-Za-z0-9._/-]+' "$DIR" \
-  --include='*.md' 2>/dev/null | sort -u || true)
-for r in "${refs[@]:-}"; do
+#    A while-read loop rather than mapfile, so this runs on macOS's bash 3.2.
+while IFS= read -r r; do
   [ -z "$r" ] && continue
   [ -e "$DIR/$r" ] || note "referenced but missing: $r"
-done
+done < <(grep -REoh '(references|scripts)/[A-Za-z0-9._/-]+' "$DIR" \
+  --include='*.md' 2>/dev/null | sort -u || true)
 
 # 3. No empty files anywhere in the bundle (excludes .git).
 while IFS= read -r f; do
