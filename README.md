@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="skill-steward: Hand-operated maintenance for a Claude skill library: capture, propose, check, and sweep, with a human promoting every change." width="100%"></p>
+
 # skill-steward
 
 A hand-operated companion for keeping a Claude skill library healthy — without
